@@ -1,9 +1,9 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Navbar from "./components/shared/navbar";
 import Body from "./components/Body";
 import Inbox from "./components/Inbox";
 import Mail from "./components/Mail";
 import SendMail from "./components/SendMail";
+import Navbar from "./components/shared/Navbar";
 
 const router = createBrowserRouter([
   {
